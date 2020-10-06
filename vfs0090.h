@@ -346,7 +346,7 @@ static const VfsDataExchange INIT_SEQUENCES[] = {
     .msg = INIT_SEQUENCE_MSG3,
     .msg_length = G_N_ELEMENTS (INIT_SEQUENCE_MSG3),
     .rsp = NULL,
-    .rsp_length = 84,
+    .rsp_length = 108,
   },
   {
     .msg = INIT_SEQUENCE_MSG4,
@@ -740,13 +740,13 @@ static const VfsDataExchange ACTIVATE_SEQUENCES[] = {
     .msg = ACTIVATE_SEQUENCE_MSG67,
     .msg_length = G_N_ELEMENTS (ACTIVATE_SEQUENCE_MSG67),
     .rsp = NULL,
-    .rsp_length = 84,
+    .rsp_length = 108,
   },
   {
     .msg = ACTIVATE_SEQUENCE_MSG67,
     .msg_length = G_N_ELEMENTS (ACTIVATE_SEQUENCE_MSG67),
     .rsp = NULL,
-    .rsp_length = 84,
+    .rsp_length = 108,
   },
   {
     .msg = SCAN_MATRIX,
